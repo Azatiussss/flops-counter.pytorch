@@ -238,7 +238,6 @@ def stop_flops_count(self):
     """
     remove_batch_counter_hook_function(self)
     self.apply(remove_flops_counter_hook_function)
-    self.apply(remove_flops_counter_variables)
 
 
 def reset_flops_count(self):
